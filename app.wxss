@@ -1,7 +1,10 @@
 @import 'fontawesome.wxss';
+page {
+  font-size: 28rpx;
+}
 /**app.wxss**/
 .container {
-  height: 100%;
+  height: 90%;
   box-sizing: border-box;
 } 
 

@@ -6,10 +6,7 @@
             </view>
             <view>
                 <text>用户名</text>
-                <view>会员有效日：2018年12月30日</view>
-            </view>
-            <view>
-                <view>企业用户</view>
+                <view>普通用户</view>
             </view>
     </view>
     <view class="user_content">
