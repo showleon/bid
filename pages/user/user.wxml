@@ -1,2 +1,117 @@
 <!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view class="user">
+    <view class="header">
+            <view>
+                <image src="../../../images/anonymous.png" alt="" ></image>
+            </view>
+            <view>
+                <text>用户名</text>
+                <view>会员有效日：2018年12月30日</view>
+            </view>
+            <view>
+                <view>企业用户</view>
+            </view>
+    </view>
+    <view class="user_content">
+            <view class="user_btn">
+                <view>充值</view>
+                <view>个人信息</view>
+                <view>通知<span class="badge_dot count">3</span></view>
+            </view>
+            <view class="mod_item">
+                <view class="mod_title"><span></span>招投标功能</view>
+                <view class="mod_btn_group">
+                    <view>
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-bell"></text>
+                        <view>招标关注</view>
+                    </view>
+                    <view>
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-folder"></text>
+                        <view>招标收藏</view>
+                    </view>
+                    <view>
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-clock-o"></text>
+                        <view>通知定制</view>
+                    </view>
+                    <view>
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-hourglass-start"></text>
+                        <view>浏览记录</view>
+                    </view>
+                </view>
+            </view>
+            <view class="mod_item">
+                <view class="mod_title"><span></span>企业会员协作功能</view>
+                <view class="mod_btn_group">
+                    <view>
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-id-card"></text>
+                        <view>企业子账号</view>
+                    </view>
+                    <view>
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-group"></text>
+                        <view>投标部门</view>
+                    </view>
+                    <view>
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-calendar"></text>
+                        <view>员工日志</view>
+                    </view>
+                    <view class="disabled">
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-creative-commons"></text>
+                        <view>资质荣誉</view>
+                    </view>
+                    <view class="disabled">
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-server"></text>
+                        <view>成功案例</view>
+                    </view>
+                    <view class="disabled">
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-graduation-cap"></text>
+                        <view>专家团队</view>
+                    </view>
+                    <view class="disabled">
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-university"></text>
+                        <view>工商信息</view>
+                    </view>
+                    <view class="disabled">
+                        <span class="badge_dot count">3</span>
+                        <text class="fa fa-eye"></text>
+                        <view>谁看过我</view>
+                    </view>
+                </view>
+            </view>
+            <view class="link_item">
+                <view class="mod_title"><span></span>申请发票</view>
+                <text class="fa fa-chevron-right"></text>
+            </view>
+            <view class="link_item">
+                <view class="mod_title"><span></span>购买记录</view>
+                <text class="fa fa-chevron-right"></text>
+            </view>
+            <view class="link_item">
+                <view class="mod_title"><span></span>产品建议</view>
+                <text class="fa fa-chevron-right"></text>
+            </view>
+            <view class="link_item">
+                <view class="mod_title"><span></span>联系客服</view>
+                <text class="fa fa-chevron-right"></text>
+            </view>
+            <view class="link_item">
+                <view class="mod_title"><span></span>修改密码</view>
+                <text class="fa fa-chevron-right"></text>
+            </view>
+            <view class="link_item">
+                <view class="mod_title"><span></span>退出账号</view>
+                <text class="fa fa-chevron-right"></text>
+            </view>
+    </view>
+    <button class="goTop" hidden='{{!floorstatus}}' bindtap="goTop"><text class="fa fa-upload"></text><view>顶部</view></button>
+</view>
