@@ -1,0 +1,23 @@
+/* components/matchor/matchor.wxss */
+
+scroll-view {
+  white-space: nowrap;
+  padding: 30rpx 0;
+  border-bottom: thin solid #ddd;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 11;
+}
+
+.match-text {
+  margin: 0 30rpx;
+  color: #576b95;
+}

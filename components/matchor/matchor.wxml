@@ -1,0 +1,8 @@
+<!--components/matchor/matchor.wxml-->
+<scroll-view class="matchor" scroll-x>
+  <text class="match-text">匹配词</text>
+  <text class="match-text">时间</text>
+  <text class="match-text">类型</text>
+  <text class="match-text">方式</text>
+  <text class="match-text">城市</text>
+</scroll-view>
