@@ -1,0 +1,35 @@
+/* pages/monitoring/monitoring.wxss */
+.condition {
+  background: #fff;
+}
+
+.condition text {
+  flex: 1;
+  padding: 26rpx 20rpx;
+  white-space: nowrap;
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  transition: border .3s;
+}
+
+.condition text.active {
+  color: #7966fe;
+  border-color: #7966fe;
+}
+.list {
+  margin-top: 20rpx;
+  background: #fff;
+}
+
+.title {
+  border-bottom: thin dashed #eee;
+  padding: 30rpx;
+}
+
+.state view {
+  text-align: center;
+  flex: 1;
+  padding: 20rpx 30rpx;
+  font-size: 90%;
+  color: #777;
+}
