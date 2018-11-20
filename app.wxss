@@ -1,7 +1,4 @@
 @import 'fontawesome.wxss';
-page {
-  font-size: 28rpx;
-}
 /**app.wxss**/
 .container {
   height: 100%;
@@ -20,4 +17,5 @@ page {
 .section {
   padding-left: 30rpx;
   padding-right: 30rpx;
+  background-color: #fff;
 }
