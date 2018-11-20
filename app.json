@@ -1,12 +1,39 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/monitoring/monitoring",
+    "pages/user/user"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#b2b2b2",
+    "selectedColor": "#09bb07",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "业务匹配",
+        "iconPath": "image/tabBar-icon-1.png",
+        "selectedIconPath": "image/tabBar-icon-1__active.png"
+      },
+      {
+        "pagePath": "pages/monitoring/monitoring",
+        "text": "单位监测",
+        "iconPath": "image/tabBar-icon-2.png",
+        "selectedIconPath": "image/tabBar-icon-2__active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "image/tabBar-icon-5.png",
+        "selectedIconPath": "image/tabBar-icon-5__active.png"
+      }
+    ]
   }
 }
