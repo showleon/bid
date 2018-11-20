@@ -1,0 +1,34 @@
+<!-- 
+  bId: Number,
+  title: String,
+  sourceDate: String,
+  budget: Number,
+  district: String,
+  primaryType: String, // 采购/工程/服务
+  secondaryType: String, // 询价/披露公告/中标公告 ...
+  matchor: Object, //{ key: String, date: String, type: String, way: String, city: String } 
+-->
+
+<template name="bidList">
+  <view class="list" data-listid="{{ bId }}" bindtap="{{ tapHandler }}">
+    <view class="primary">
+      {{ title }}
+    </view>
+    <view class="secondary">
+      时间：{{ sourceDate }}
+    </view>
+    <view class="secondary">
+      预算：￥{{ budget }}
+    </view>
+    <view class="box">
+      <view class="label-section">
+        <text class="label {{ klass }}">{{ primaryType }}</text>
+        <text class="label plain {{ klass }}">{{ secondaryType }}</text>
+      </view>
+      <view class="local-section">
+        <text class="local match-time">{{ matchor.date }}</text>
+        <text class="local match-city">{{ matchor.city }}</text>
+      </view>
+    </view>
+  </view>
+</template>
