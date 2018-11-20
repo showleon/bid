@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "业务匹配"
+  "navigationBarTitleText": "业务匹配",
+  "usingComponents": {
+    "matchor": "/components/matchor/matchor"
+  }
 }

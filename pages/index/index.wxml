@@ -1,2 +1,29 @@
 <!--index.wxml-->
-<text>pages/index/index.wxml</text>
+<import src="/tpls/bid-list/index.wxml" /> 
+
+
+<view class="container">
+  <block wx:if="{{ threshold }}">
+    <view class="section btn-area">
+      <button bindtap='toSearchPage' hover-class='none' type="default" class="flex-box btn-to-search">
+        <icon type="search" size="20px" class="search-icon"></icon>
+        <text>项目、单位</text>
+      </button>
+    </view>
+    <view class="section subscribe">
+      <button type="primary" bindtap='toMatchesPage'>管理我的业务</button>
+    </view>
+  </block>
+  <matchor></matchor>
+  <view class="section flex notication">
+    <image class="ring-icon" src="../../image/ring.png"></image>
+    <text>有</text>
+    <text class="count">1</text>
+    <text>条新的项目信息，点击查看</text>
+  </view>
+  <scroll-view class="data-box">
+    <block wx:for="{{ bidList }}" wx:key="{{ index }}">
+      <template is="bidList" data="{{ ...item }}" bindtap="toDetailsPage"/>
+    </block>
+  </scroll-view>
+</view>

@@ -1,4 +1,9 @@
 /**index.wxss**/
+page {
+  font-size: 13pt;
+  background-color: #eee;
+}
+
 button.btn-to-search {
   justify-content: center;
   color: #b2b2b2;

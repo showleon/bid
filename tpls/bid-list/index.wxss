@@ -4,6 +4,10 @@
   padding: 20rpx 30rpx;
 }
 
+.list:last-child {
+  margin-bottom: 20rpx;
+}
+
 .list + .list {
   border-top: thin dashed #ddd;
 }
