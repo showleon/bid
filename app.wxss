@@ -1,5 +1,4 @@
-
-body, html {
+page {
   font-size: 28rpx;
 }
 /**app.wxss**/
